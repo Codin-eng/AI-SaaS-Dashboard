@@ -74,8 +74,8 @@ cd AI-SaaS-Dashboard
 ### Clients
 <table>
   <tr>
-    <td><img src="./screenshots/client-created.png"/></td>
-    <td><img src="./screenshots/client-update.png"/></td>
+    <td><img src="./screenshots/client_created.png"/></td>
+    <td><img src="./screenshots/update_clients.png"/></td>
   </tr>
 </table>
 

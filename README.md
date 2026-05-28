@@ -32,22 +32,22 @@ A full-stack SaaS application built with:
 ##  Screenshots
 
 ###  Login Page
-![Login](../screenshots/login.png)
+![Login](./screenshots/login.png)
 
 ### Dashboard  UI
-![Dashboard](../screenshots/dashboard-ui.png)
+![Dashboard](./screenshots/dashboard-ui.png)
 
 ###  Auth Login Requset
-![Auth Login](../screenshots/auth_login.png)
+![Auth Login](./screenshots/auth_login.png)
 
 ### Client Created
-![Client Created](../screenshots/client_created.png)
+![Client Created](./screenshots/client_created.png)
 
 ### Update Client
-![Update Client](../screenshots/update_clients.png)
+![Update Client](./screenshots/update_clients.png)
 
 ### Client POST Request
-![Client POST](../screenshots/post_client_userid.png)
+![Client POST](./screenshots/post_client_userid.png)
 ---
 
 #  Tech Stack

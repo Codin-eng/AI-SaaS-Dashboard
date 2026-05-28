@@ -1,15 +1,40 @@
-#  AI SaaS Dashboard (Full-Stack Project)
 
-A full-stack SaaS application built with:
+#  AI SaaS Dashboard
 
- Frontend: Next.js (TypeScript) + Tailwind CSS  
- Backend: Node.js + Express  
- Database: PostgreSQL + Prisma  
- Auth: JWT (Access + Refresh Tokens)
+A full-stack SaaS application built with Next.js + Node.js + Prisma + PostgreSQL.  
+The system provides authentication, client management, and a dashboard UI with a clean scalable architecture.
 
----
+# Project Purpose
 
-#  Features
+This project solves the problem of building a simple but scalable SaaS dashboard system that includes:
+
+Secure user authentication (JWT)
+Centralized client management system
+REST API architecture
+Clean separation of backend layers (Controller → Service → DB)
+Production-ready frontend dashboard
+
+=> The goal is to simulate a real SaaS product architecture used in startups.
+
+
+#  Tech Stack
+
+Frontend: Next.js (TypeScript)
+Backend: Node.js + Express
+Database: PostgreSQL + Prisma ORM
+Authentication: JWT
+Styling: Tailwind CSS
+
+
+#  Installation & Setup
+
+## 1. Clone the repository
+
+``bash
+git clone https://github.com/Codin-eng/AI-SaaS-Dashboard.git
+cd AI-SaaS-Dashboard
+
+###  Features
 
 ##  Authentication
  User register & login
@@ -31,26 +56,30 @@ A full-stack SaaS application built with:
 
 ##  Screenshots
 
-###  Login Page
-![Login](./screenshots/login.png)
+### Authentication
+<table>
+  <tr>
+    <td><img src="./screenshots/login.png"/></td>
+    <td><img src="./screenshots/auth-login.png"/></td>
+  </tr>
+</table>
 
-### Dashboard  UI
-![Dashboard](./screenshots/dashboard-ui.png)
+### Dashboard
+<table>
+  <tr>
+    <td><img src="./screenshots/dashboard-ui.png"/></td>
+  </tr>
+</table>
 
-### Update Client
-![Update Client](./screenshots/update_clients.png)
+### Clients
+<table>
+  <tr>
+    <td><img src="./screenshots/client-created.png"/></td>
+    <td><img src="./screenshots/client-update.png"/></td>
+  </tr>
+</table>
 
-### Client Created
-![Client Created](./screenshots/client_created.png)
-
-###  Auth Login Requset
-![Auth Login](./screenshots/auth_login.png)
-
-### Client POST Request
-![Client POST](./screenshots/post_client_userid.png)
----
-
-#  Tech Stack
+###  Tech Stack
 
 ### Frontend
  Next.js
@@ -64,3 +93,8 @@ A full-stack SaaS application built with:
  JWT
  bcrypt
  Zod validation
+
+
+#   Author
+
+Built as a production-oriented full-stack SaaS project designed to demonstrate real-world software engineering practices including scalable architecture, authentication systems, and API design suitable for modern startup environments.

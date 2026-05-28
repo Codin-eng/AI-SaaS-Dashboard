@@ -16,3 +16,14 @@ export const createClient = async (
 export const deleteClient = async (id: string): Promise<void> => {
   await api.delete(`/clients/${id}`);
 };
+export const updateClient = async (
+  id: string,
+  data: Partial<Client>
+): Promise<Client> => {
+  const res = await api.put(
+    `/clients/${id}`,
+    data
+  );
+
+  return res.data;
+};

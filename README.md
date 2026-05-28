@@ -76,6 +76,7 @@ cd AI-SaaS-Dashboard
   <tr>
     <td><img src="./screenshots/client_created.png"/></td>
     <td><img src="./screenshots/update_clients.png"/></td>
+    <td><img src="./screenshots/post_client_userid.png"/></td>
   </tr>
 </table>
 

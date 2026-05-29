@@ -43,6 +43,11 @@ Styling: Tailwind CSS
 git clone https://github.com/Codin-eng/AI-SaaS-Dashboard.git
 cd AI-SaaS-Dashboard
 
+## Connect
+
+LinkedIn: https://www.linkedin.com/in/mustafa-719644412
+
+
 ###  Features
 
 

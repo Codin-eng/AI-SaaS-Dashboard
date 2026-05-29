@@ -10,11 +10,13 @@ import {
 type Props = {
   clients: Client[];
   refresh: () => void;
+  onGenerateAI: (Client: Client) => void;
 };
 
 export default function ClientTable({
   clients,
   refresh,
+  onGenerateAI,
 }: Props) {
   const [editingId, setEditingId] =
     useState<string | null>(null);
@@ -47,7 +49,7 @@ export default function ClientTable({
       <tbody>
         {clients.map((client) => (
           <tr key={client.id}>
-            {/* NAME */}
+          
             <td className="border p-2">
               {editingId === client.id ? (
                 <input
@@ -62,7 +64,7 @@ export default function ClientTable({
               )}
             </td>
 
-            {/* EMAIL */}
+            
             <td className="border p-2">
               {editingId === client.id ? (
                 <input
@@ -77,7 +79,7 @@ export default function ClientTable({
               )}
             </td>
 
-            {/* ACTIONS */}
+           
             <td className="border p-2 space-x-2">
               {editingId === client.id ? (
                 <>
@@ -127,7 +129,14 @@ export default function ClientTable({
                   >
                     Edit
                   </button>
-
+                  <button
+                    className="text-purple-600 font-semibold"
+                    onClick={() =>
+                      onGenerateAI(client)
+                    }
+                  >
+                    AI Insights
+                  </button>
                   <button
                     className="text-red-500"
                     onClick={() =>

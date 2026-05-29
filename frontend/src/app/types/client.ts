@@ -3,4 +3,5 @@ export type Client = {
   name: string;
   email?: string;
   createdAt?: string;
+  notes? : string;
 };

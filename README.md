@@ -60,7 +60,6 @@ cd AI-SaaS-Dashboard
 <table>
   <tr>
     <td><img src="./screenshots/login.png"/></td>
-    <td><img src="./screenshots/auth-login.png"/></td>
   </tr>
 </table>
 
@@ -68,6 +67,8 @@ cd AI-SaaS-Dashboard
 <table>
   <tr>
     <td><img src="./screenshots/dashboard-ui.png"/></td>
+    <td><img src="./screenshots/update_clients.png"/></td>
+    
   </tr>
 </table>
 
@@ -75,8 +76,8 @@ cd AI-SaaS-Dashboard
 <table>
   <tr>
     <td><img src="./screenshots/client_created.png"/></td>
-    <td><img src="./screenshots/update_clients.png"/></td>
     <td><img src="./screenshots/post_client_userid.png"/></td>
+    <td><img src="./screenshots/auth_login.png"/></td>
   </tr>
 </table>
 

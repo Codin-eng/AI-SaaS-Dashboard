@@ -1,5 +1,5 @@
 
-# 🚀 AI SaaS Dashboard
+#  AI SaaS Dashboard
 
 A production-oriented Full-Stack SaaS application built with Next.js, TypeScript, Node.js, Express, Prisma, PostgreSQL, and JWT Authentication.
 
